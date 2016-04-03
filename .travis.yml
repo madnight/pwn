@@ -1,5 +1,6 @@
-before_install:
-  - mvn -v
+before_script:
+  - sudo apt-add-repository ppa:swi-prolog/stable
+  - sudo apt-get update -q
+  - sudo apt-get install swi-prolog
 
-after_success:
-  - mvn clean test jacoco:report coveralls:report
+script: swipl
