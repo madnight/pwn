@@ -1,0 +1,5 @@
+before_install:
+  - mvn -v
+
+after_success:
+  - mvn clean test jacoco:report coveralls:report

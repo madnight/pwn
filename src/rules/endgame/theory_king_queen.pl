@@ -1,0 +1,1 @@
+% normally mating rule
