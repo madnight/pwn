@@ -1,4 +1,4 @@
-![PWN](https://raw.githubusercontent.com/lmbrs/abaddon/master/logo.png)
+![PWN](https://raw.githubusercontent.com/lmbrs/pwn/master/res/logo.png)
 
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/lmbrs/abaddon/blob/master/LICENSE.md) [![Build Status](https://travis-ci.org/lmbrs/abaddon.svg?branch=master)](https://travis-ci.org/lmbrs/abaddon) [![Coverage Status](http://coveralls.io/repos/lmbrs/abaddon/badge.svg?branch=master&service=github)](https://coveralls.io/github/lmbrs/abaddon?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/5632c51436d0ab0016001ce8/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5632c51436d0ab0016001ce8)
 
