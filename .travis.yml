@@ -3,4 +3,4 @@ before_script:
   - sudo apt-get update -q
   - sudo apt-get install swi-prolog
 
-script: swipl
+script: swipl -s tests/tests.pl -g run_tests,halt -t 'halt(1)'
