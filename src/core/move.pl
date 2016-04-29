@@ -4,17 +4,20 @@
 % if in check only if the move removes the check
 % if pinned only according to the pin (e.g. along the bishops diagonal or take the piece if possible)
 % can take? (2 possibilities: fields must have opponents piece)
-% can advance? (1 possibility: field must be empty)
+% can advance? (1 or 2 possibilities: field must be empty + starting pos?)
 % special move en passant
 % special move promotion
 % -----------------------------------------------------------------------------
 
-move(SourceSquareName, TargetSquareName) :-
-    space(SourceSquareName, SourceSquare),
-    space(TargetSquareName, TargetSquare),
-    piece('pawn', SourcePoint),
-    topology(inside, SourcePoint, SourceSquare),
-    topology(inside, TargetPoint, TargetSquare).
+move(FEN, SourceSquareName, TargetSquareName) :-
+  parse_fen(FEN, PositionData),
+  space(type('square'), name(SourceSquareName), SourceSquare),
+  space(type('square'), name(TargetSquareName), TargetSquare),
+  % piece(type('pawn'), color(PieceColor) PieceSourcePosition),
+  member(object(type('pawn'), color(PieceColor), PiecePosition), PositionData),
+  % TODO FUNCTIONAL SPACE?
+  topology(inside, PieceSourcePosition, SourceSquare),
+  topology(inside, PieceTargetPosition, TargetSquare).
 
 % -----------------------------------------------------------------------------
 % KNIGHT
