@@ -12,6 +12,5 @@ On Windows:
 - Copy libswipl.dll and rename to libpl.dll
 - python -m pip install -U pyswip pywebview
 
-###Outlook
-- Analysis of educational literature for chess
-- Application of this concept to other domains (e.g. source code quality)
+###Motivation
+Evaluation, formalization and organization of chess rules
