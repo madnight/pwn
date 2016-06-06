@@ -9,9 +9,3 @@ TODO
 
 ###Motivation
 Evaluation, formalization and organization of chess rules
-
-<<<<<<< Updated upstream
-###Motivation
-Evaluation, formalization and organization of chess rules
-=======
->>>>>>> Stashed changes
