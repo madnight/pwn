@@ -1,7 +1,5 @@
 package de.lmbrs.pwn.reasoner;
 
-import de.lmbrs.pwn.geometry.relation.Rcc8;
-
 // TODO see http://jacopguide.osolpro.com/guideJaCoP.html
 
 public class Example {
@@ -46,7 +44,7 @@ public class Example {
     // System.out.println("*** No");
     // }
 
-    Rcc8 rcc = new Rcc8();
+    // Rcc8 rcc = new Rcc8();
 
   }
 
