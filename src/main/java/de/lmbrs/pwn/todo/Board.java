@@ -1,6 +1,6 @@
-package de.lmbrs.pwn.facts;
+package de.lmbrs.pwn.todo;
 
-public class BoardOld {
+public class Board {
 
   // % -----------------------------------------------------------------------------
   // % SQUARES

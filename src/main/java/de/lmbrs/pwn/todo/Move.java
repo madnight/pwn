@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.old;
+package de.lmbrs.pwn.todo;
 
 public class Move {
 
