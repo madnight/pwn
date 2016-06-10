@@ -1,6 +1,4 @@
-before_script:
-  - sudo apt-add-repository ppa:swi-prolog/stable
-  - sudo apt-get update -q
-  - sudo apt-get install swi-prolog
+language: java
 
-script: swipl -s tests/tests.pl -g run_tests,halt -t 'halt(1)'
+jdk:
+  - oraclejdk8
