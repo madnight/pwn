@@ -1,2 +1,2 @@
-package de.lmbrs.pwn.know;
+package de.lmbrs.pwn.core.know;
 
