@@ -1,6 +1,6 @@
-package de.lmbrs.pwn.core.qsr.relation;
+package de.lmbrs.pwn.qsr.relation;
 
-import de.lmbrs.pwn.core.qsr.shape.Square;
+import de.lmbrs.pwn.qsr.shape.Square;
 
 /**
  *
@@ -14,7 +14,7 @@ import de.lmbrs.pwn.core.qsr.shape.Square;
  * connection.</i> KR, 92, 165-176.
  * </p>
  */
-public class Rcc8 {
+public class RegionConnectionCalculus {
 
   // private static final String DC = null;
 
