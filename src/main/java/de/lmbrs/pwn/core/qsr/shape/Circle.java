@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.geometry.shape;
+package de.lmbrs.pwn.core.qsr.shape;
 
 public class Circle {
 

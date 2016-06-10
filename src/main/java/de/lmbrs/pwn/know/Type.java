@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.todo;
+package de.lmbrs.pwn.know;
 
 // TODO ontology?
 

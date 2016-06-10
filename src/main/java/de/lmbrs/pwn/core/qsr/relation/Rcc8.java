@@ -1,6 +1,6 @@
-package de.lmbrs.pwn.geometry.relation;
+package de.lmbrs.pwn.core.qsr.relation;
 
-import de.lmbrs.pwn.geometry.shape.Square;
+import de.lmbrs.pwn.core.qsr.shape.Square;
 
 /**
  *
