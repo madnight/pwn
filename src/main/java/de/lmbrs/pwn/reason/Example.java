@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.reasoner;
+package de.lmbrs.pwn.reason;
 
 // TODO see http://jacopguide.osolpro.com/guideJaCoP.html
 

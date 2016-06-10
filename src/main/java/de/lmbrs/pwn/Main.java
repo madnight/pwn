@@ -1,6 +1,6 @@
 package de.lmbrs.pwn;
 
-import de.lmbrs.pwn.reasoner.Example;
+import de.lmbrs.pwn.reason.Example;
 
 public class Main {
 
