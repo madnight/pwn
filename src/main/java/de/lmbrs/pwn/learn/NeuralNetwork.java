@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.core.learn;
+package de.lmbrs.pwn.learn;
 
 public class NeuralNetwork {
 

@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.qsr.shape;
+package de.lmbrs.pwn.reason.shape;
 
 // TODO https://docs.oracle.com/javase/8/docs/api/java/awt/geom/package-frame.html
 // TODO http://geom-java.sourceforge.net/api/index.html

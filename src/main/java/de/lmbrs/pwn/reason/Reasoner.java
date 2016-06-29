@@ -1,8 +1,8 @@
-package de.lmbrs.pwn.core.reason;
+package de.lmbrs.pwn.reason;
 
 // TODO see http://jacopguide.osolpro.com/guideJaCoP.html
 
-public class Example {
+public class Reasoner {
 
   /**
    * TODO.

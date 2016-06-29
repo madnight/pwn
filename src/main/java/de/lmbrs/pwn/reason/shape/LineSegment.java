@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.qsr.shape;
+package de.lmbrs.pwn.reason.shape;
 
 public class LineSegment {
 

@@ -1,17 +1,27 @@
 package de.lmbrs.pwn;
 
-import de.lmbrs.pwn.core.reason.Example;
+import de.lmbrs.pwn.ui.View;
 
-public class Main {
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
+
+public class Main extends Application {
 
   // TODO glossary:
   // - https://en.wikipedia.org/wiki/Glossary_of_board_games
   // - https://en.wikipedia.org/wiki/Glossary_of_chess
 
   public static void main(String[] args) {
-    Example.example();
-    System.out.println("done");
+    launch(args);
+  }
+
+  @Override
+  public void start(Stage stage) {
+    stage.setTitle("PWN");
+    stage.setScene(new Scene(new View(), Color.web("#1a1a1a")));
+    stage.show();
   }
 
 }
-
