@@ -1,6 +1,4 @@
-package de.lmbrs.pwn;
-
-import de.lmbrs.pwn.ui.View;
+package de.lmbrs.pwn.ui;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

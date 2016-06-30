@@ -1,4 +1,4 @@
-package de.lmbrs.pwn;
+package de.lmbrs.pwn.fen;
 
 public class FenLoader {
 
