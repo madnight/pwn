@@ -1,6 +1,6 @@
-package de.lmbrs.pwn.fen;
+package de.lmbrs.pwn.position;
 
-public class FenLoader {
+public class Fen {
 
   // % -----------------------------------------------------------------------------
   // % Forsyth–Edwards Notation (FEN)

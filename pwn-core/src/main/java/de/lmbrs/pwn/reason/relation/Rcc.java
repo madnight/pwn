@@ -14,7 +14,7 @@ import de.lmbrs.pwn.reason.shape.Square;
  * connection.</i> KR, 92, 165-176.
  * </p>
  */
-public class RegionConnectionCalculus {
+public class Rcc {
 
   // private static final String DC = null;
 

@@ -1,5 +1,7 @@
 package de.lmbrs.pwn.ui;
 
+import de.lmbrs.pwn.reason.FileUtils;
+
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Worker.State;
 import javafx.geometry.HPos;
@@ -11,8 +13,8 @@ import netscape.javascript.JSObject;
 
 public class View extends Region {
 
-  private static final String HTML = getResourcePath("/ui/index.html");
-  private static final String CSS = getResourcePath("/ui/style.css");
+  private static final String HTML = FileUtils.getResourcePath("/ui/index.html");
+  private static final String CSS = FileUtils.getResourcePath("/ui/style.css");
 
   private final WebView webView = new WebView();
   private final WebEngine webEngine = webView.getEngine();
@@ -49,10 +51,6 @@ public class View extends Region {
   @Override
   protected double computePrefHeight(double width) {
     return 600;
-  }
-
-  private static String getResourcePath(String name) {
-    return View.class.getResource(name).toExternalForm();
   }
 
 }

@@ -1,8 +1,19 @@
 package de.lmbrs.pwn.reason;
 
-// TODO see http://jacopguide.osolpro.com/guideJaCoP.html
+// TODO read http://jacopguide.osolpro.com/guideJaCoP.html
+// TODO read https://jena.apache.org/documentation/ontology/
 
-public class Reasoner {
+// TODO read Krisnadhi, A. et al. An Ontology Design Pattern for Chess Games.
+// TODO read Smith, Barry. "Against idiosyncrasy in ontology development."
+// TODO read Dennett, D. C. (1991). Real patterns.
+// TODO read Smith, B. (2008). Searle and de soto: The new ontology of the social world.
+// TODO read Haugeland, J. (2000). Having thought: Essays in the metaphysics of mind.
+
+public class ChessRuleReasoner {
+
+  public void reason() {
+
+  }
 
   /**
    * TODO.
@@ -45,7 +56,6 @@ public class Reasoner {
     // }
 
     // Rcc8 rcc = new Rcc8();
-
   }
 
 }
