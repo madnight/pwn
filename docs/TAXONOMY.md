@@ -16,12 +16,14 @@ TODO add & structure
 - file: a,b,c,d,e,f,g,h; open?
 - rank: 1st,2nd,3rd,...,8th 
 - squares: a1, a2, ... , h8
-- square color: light, dark
+- light square(s)
+- dark square(s)
+- weak square(s)
 
 **Chess piece(s):**
-- color: white
-- color: black
-- pawn (passed, )
+- white piece(s)
+- black piece(s)
+- pawn (passed pawn, isolani)
 - knight
 - bishop (light/dark-squared)
 - rook
@@ -31,4 +33,5 @@ TODO add & structure
 **TODO**
 ? attacking/sacrificing
 ? move
-? active
+? active / inactive
+? pawn chain / structure

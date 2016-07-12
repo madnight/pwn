@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: pwn-ui-board-tests
+Bundle-SymbolicName: pwn-ui-board-tests
+Bundle-Version: 0.0.1.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit;bundle-version="4.12.0",
+ pwn-ui-board;bundle-version="0.0.0"
+Import-Package: de.lmbrs.pwn.ui.board
