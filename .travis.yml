@@ -3,5 +3,6 @@ jdk:
   - oraclejdk8
 before_install:
   - sudo apt-get -qq update
+  - sudo apt-get install -y maven
 after_success:
   - mvn clean test jacoco:report coveralls:report
