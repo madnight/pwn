@@ -3,14 +3,14 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>pwn</groupId>
-  <artifactId>pwn</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <parent>
+    <groupId>pwn.ui</groupId>
+    <artifactId>pwn.ui.bundles</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
 
-  <modules>
-    <module>pwn.core</module>
-    <module>pwn.ui</module>
-  </modules>
+  <artifactId>pwn.ui.p2.ui</artifactId>
+  <packaging>eclipse-plugin</packaging>
 
 </project>
