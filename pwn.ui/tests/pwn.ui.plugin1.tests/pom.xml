@@ -12,6 +12,17 @@
   <artifactId>pwn.ui.plugin1.tests</artifactId>
   <packaging>eclipse-test-plugin</packaging>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-library</artifactId>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>

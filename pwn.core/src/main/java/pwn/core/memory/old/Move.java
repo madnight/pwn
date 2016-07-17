@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.memory.old;
+package pwn.core.memory.old;
 
 public class Move {
 

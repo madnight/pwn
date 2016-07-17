@@ -3,14 +3,14 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.lmbrs.pwn</groupId>
+  <groupId>pwn</groupId>
   <artifactId>pwn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
-    <module>pwn-core</module>
-    <module>pwn-ui</module>
+    <module>pwn.core</module>
+    <module>pwn.ui</module>
   </modules>
 
 </project>

@@ -4,8 +4,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.lmbrs.pwn</groupId>
-  <artifactId>pwn-parent</artifactId>
+  <groupId>pwn</groupId>
+  <artifactId>pwn.parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -18,8 +18,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>de.lmbrs.pwn</groupId>
-        <artifactId>pwn-core</artifactId>
+        <groupId>pwn</groupId>
+        <artifactId>pwn.core</artifactId>
         <version>${project.version}</version>
       </dependency>
 

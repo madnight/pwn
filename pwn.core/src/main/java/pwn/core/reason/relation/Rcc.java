@@ -1,6 +1,6 @@
-package de.lmbrs.pwn.reason.relation;
+package pwn.core.reason.relation;
 
-import de.lmbrs.pwn.reason.shape.Square;
+import pwn.core.reason.shape.Square;
 
 /**
  *

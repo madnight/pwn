@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.reason;
+package pwn.core.reason;
 
 import java.net.URL;
 

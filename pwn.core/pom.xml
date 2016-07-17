@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>de.lmbrs.pwn</groupId>
-    <artifactId>pwn-parent</artifactId>
+    <groupId>pwn</groupId>
+    <artifactId>pwn.parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../pwn-parent/pom.xml</relativePath>
+    <relativePath>../pwn.parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>pwn-core</artifactId>
+  <artifactId>pwn.core</artifactId>
   <packaging>jar</packaging>
 
   <dependencies>

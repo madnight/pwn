@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.reason.shape;
+package pwn.core.reason.shape;
 
 public class Circle {
 

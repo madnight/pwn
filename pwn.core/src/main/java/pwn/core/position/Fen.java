@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.position;
+package pwn.core.position;
 
 public class Fen {
 

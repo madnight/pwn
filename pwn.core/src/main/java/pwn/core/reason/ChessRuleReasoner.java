@@ -1,4 +1,4 @@
-package de.lmbrs.pwn.reason;
+package pwn.core.reason;
 
 // TODO read http://jacopguide.osolpro.com/guideJaCoP.html
 // TODO read https://jena.apache.org/documentation/ontology/
