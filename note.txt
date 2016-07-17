@@ -1,0 +1,7 @@
+http://www.vogella.com/tutorials/EclipseTycho/article.html
+
+[INFO] com.vogella.tycho.root ............................. SUCCESS [  0.055 s]
+[INFO] com.vogella.tycho.bundles .......................... SUCCESS [  0.002 s]
+[INFO] com.vogella.tycho.plugin1 .......................... SUCCESS [  0.518 s]
+[INFO] com.vogella.tycho.features ......................... SUCCESS [  0.002 s]
+[INFO] com.vogella.tycho.feature .......................... SUCCESS [  0.118 s]
