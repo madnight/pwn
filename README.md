@@ -7,5 +7,12 @@ A humble approach to gaining insight into the influence of knowledge on playing 
 ###Usage
 TODO
 
+###Build
+```
+
+mvn clean verify
+
+```
+
 ###Motivation
 Evaluation, formalization and organization of chess rules
