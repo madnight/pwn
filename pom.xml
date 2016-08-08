@@ -3,40 +3,17 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>pwn</groupId>
-    <artifactId>pwn.parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <relativePath>pwn.parent/pom.xml</relativePath>
-  </parent>
-
-  <artifactId>pwn</artifactId>
+  <groupId>pwn</groupId>
+  <artifactId>pwn-aggregator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
-
-    <!-- BASE -->
-    <module>pwn.parent</module>
-    <module>pwn.core</module>
-
-    <!-- BUNDLES -->
-    <module>pwn.ui.plugin1</module>
-    <module>pwn.ui.rcp</module>
-    <module>pwn.ui.p2.ui</module>
-
-    <!-- FEATURES -->
-    <module>pwn.ui.feature</module>
-
-    <!-- TESTS -->
-    <module>pwn.ui.plugin1.tests</module>
-    <module>pwn.ui.rcp.tests</module>
-    <module>pwn.ui.rcp.it.tests</module>
-
-    <!-- RELENG -->
-    <module>pwn.ui.update</module>
-    <module>pwn.ui.product</module>
-    <module>pwn.ui.target</module>
-
+    <module>pwn-parent</module>
+    <module>pwn-geometry</module>
+    <module>pwn-chess</module>
+    <module>pwn-reason</module>
+    <module>pwn-ui</module>
   </modules>
 
 </project>

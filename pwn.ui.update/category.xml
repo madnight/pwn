@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/pwn.ui.feature_1.0.0.qualifier.jar" id="pwn.ui.feature" version="1.0.0.qualifier">
-      <category name="pwn"/>
-   </feature>
-   <category-def name="pwn" label="PWN"/>
-</site>
