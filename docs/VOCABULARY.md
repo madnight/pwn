@@ -1,4 +1,4 @@
-# Taxonomy
+# Vocabulary
 
 TODO add & structure
 
